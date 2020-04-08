@@ -10,7 +10,7 @@ if (isset($_POST['delete_file'])) {
     $delete_file = $_POST['delete_file'];
 }
 
-$targetPath = dirname(__FILE__) . '/../photos/';
+$targetPath = dirname(__FILE__) . '/../resources/photos/';
 
 // Check if it's an upload or delete and if there is a file in the form
 if (!empty($_FILES) && $delete_file == 0) {
